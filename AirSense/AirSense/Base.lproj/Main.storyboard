@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3Wc-eA-yay">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Zy4-aA-9eS">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="3Wc-eA-yay" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1wb-GB-KGe">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="systemOrangeColor"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="gkq-0P-eOF" kind="relationship" relationship="viewControllers" id="65k-vj-2RL"/>
+                        <segue destination="M4V-qV-4ox" kind="relationship" relationship="viewControllers" id="bWU-yc-3UL"/>
+                        <segue destination="tiW-1t-eKb" kind="relationship" relationship="viewControllers" id="q5L-fg-ClY"/>
+                        <segue destination="n1q-sU-I2G" kind="relationship" relationship="viewControllers" id="Ztv-DL-YXL"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9z8-gn-Oc8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100" y="61.971830985915496"/>
+        </scene>
+        <!--Alarm-->
+        <scene sceneID="E75-Jl-14q">
+            <objects>
+                <viewController id="M4V-qV-4ox" customClass="AlarmViewController" customModule="AirSense" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lzu-eJ-nq1">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alarm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eyb-uY-vGI">
+                                <rect key="frame" x="174.33333333333334" y="404" width="44.666666666666657" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ojs-Yk-vYG"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="eyb-uY-vGI" firstAttribute="centerY" secondItem="ojs-Yk-vYG" secondAttribute="centerY" id="9ve-aN-2l8"/>
+                            <constraint firstItem="eyb-uY-vGI" firstAttribute="centerX" secondItem="ojs-Yk-vYG" secondAttribute="centerX" id="F6e-nM-JV0"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Alarm" image="alarm.fill" catalog="system" id="XdD-NK-2OP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fhq-BS-4hz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="833" y="854"/>
+        </scene>
+        <!--Stopwatch-->
+        <scene sceneID="i5E-bI-2CZ">
+            <objects>
+                <viewController id="tiW-1t-eKb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mNZ-Z7-che">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="StopWatch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5U1-9U-Tcc">
+                                <rect key="frame" x="155" y="404" width="83.333333333333314" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KL1-r9-cYT"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5U1-9U-Tcc" firstAttribute="centerY" secondItem="KL1-r9-cYT" secondAttribute="centerY" id="R6k-7E-q5L"/>
+                            <constraint firstItem="5U1-9U-Tcc" firstAttribute="centerX" secondItem="KL1-r9-cYT" secondAttribute="centerX" id="vz8-av-6ft"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Stopwatch" image="stopwatch.fill" catalog="system" id="YD8-Q6-c3C"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u6A-zf-9cg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1662" y="854"/>
+        </scene>
+        <!--World Clock-->
+        <scene sceneID="zhd-Qo-1si">
+            <objects>
+                <viewController id="gkq-0P-eOF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="w45-NH-4Cf">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WorldClock" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3J-hS-isD">
+                                <rect key="frame" x="152.66666666666666" y="404" width="88" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZTY-DJ-eGR"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="e3J-hS-isD" firstAttribute="centerX" secondItem="ZTY-DJ-eGR" secondAttribute="centerX" id="MFq-Pf-fsn"/>
+                            <constraint firstItem="e3J-hS-isD" firstAttribute="centerY" secondItem="ZTY-DJ-eGR" secondAttribute="centerY" id="Z8w-Ib-TEV"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="World Clock" image="globe" catalog="system" id="HeA-09-Yk2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lsi-g8-jro" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100" y="853.52112676056345"/>
+        </scene>
+        <!--Timer-->
+        <scene sceneID="1oS-iW-mxK">
+            <objects>
+                <viewController id="n1q-sU-I2G" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kxM-oW-nnH">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPv-xT-s8o">
+                                <rect key="frame" x="174.66666666666666" y="403.66666666666669" width="44" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KDQ-fn-9mG"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="YPv-xT-s8o" firstAttribute="centerY" secondItem="KDQ-fn-9mG" secondAttribute="centerY" id="KNy-Bq-6Gf"/>
+                            <constraint firstItem="YPv-xT-s8o" firstAttribute="centerX" secondItem="KDQ-fn-9mG" secondAttribute="centerX" id="nej-9e-it6"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Timer" image="timer" catalog="system" id="k5U-nq-fMg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6mo-3h-gWe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2443.5114503816794" y="853.52112676056345"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="alarm.fill" catalog="system" width="123" height="128"/>
+        <image name="globe" catalog="system" width="128" height="123"/>
+        <image name="stopwatch.fill" catalog="system" width="121" height="128"/>
+        <image name="timer" catalog="system" width="128" height="123"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

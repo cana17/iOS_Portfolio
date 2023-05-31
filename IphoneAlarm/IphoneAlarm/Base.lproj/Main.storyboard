@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZhF-HP-jYn">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--World Clock-->
+        <scene sceneID="y6c-7D-bgY">
+            <objects>
+                <viewController id="NqV-yo-9YX" customClass="WorldClockViewController" customModule="IphoneAlarm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BFa-1m-3jP">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ywD-SQ-ddU">
+                                <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="World Clock" id="wrm-BT-Irk">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="sFc-6p-Fnh">
+                                            <color key="tintColor" red="0.99607843139999996" green="0.62745098040000002" blue="0.039215686270000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="znk-Ad-LMp">
+                                            <color key="tintColor" red="0.99607843139999996" green="0.62745098040000002" blue="0.039215686270000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BMs-mH-5KR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="World Clock" image="globe" catalog="system" id="pse-Hs-4vv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xnk-uO-g6i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-489.3129770992366" y="-361.26760563380282"/>
+        </scene>
+        <!--Alarm-->
+        <scene sceneID="lfJ-ol-Qmx">
+            <objects>
+                <viewController id="lK3-NJ-u3l" customClass="AlarmViewController" customModule="IphoneAlarm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="is2-6X-4a4">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9C4-pM-6I7">
+                                <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Alarm" id="28R-gQ-SIW">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="Nsn-8S-7IU">
+                                            <color key="tintColor" red="0.99607843139999996" green="0.62745098040000002" blue="0.039215686270000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="VL2-1C-6VP">
+                                            <color key="tintColor" red="0.99607843139999996" green="0.62745098040000002" blue="0.039215686270000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="phT-OU-G8h"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Alarm" image="alarm.fill" catalog="system" id="hD4-Ot-7Qw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5UH-Ss-kWN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="402.29007633587787" y="-361.26760563380282"/>
+        </scene>
+        <!--Stopwatch-->
+        <scene sceneID="Gs9-8d-Lb2">
+            <objects>
+                <viewController id="LUM-0m-kLu" customClass="StopwatchViewController" customModule="IphoneAlarm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="z8H-cg-MZh">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="049-IB-CAT">
+                                <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Stopwatch" id="3Te-4H-KhL"/>
+                                </items>
+                            </navigationBar>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="2" translatesAutoresizingMaskIntoConstraints="NO" id="DwO-NV-g8X">
+                                <rect key="frame" x="147.33333333333334" y="401" width="98.666666666666657" height="26"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="clZ-1o-ihc">
+                                <rect key="frame" x="260" y="377" width="88" height="74"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="88" id="4ly-qa-2jC"/>
+                                    <constraint firstAttribute="height" constant="74" id="DcK-s1-Bw5"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Start" cornerStyle="capsule">
+                                    <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
+                                    <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tha-wZ-sln">
+                                <rect key="frame" x="45" y="377" width="88" height="74"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="88" id="j6r-SH-eXN"/>
+                                    <constraint firstAttribute="height" constant="74" id="lIK-Pr-XzB"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Lap" cornerStyle="capsule">
+                                    <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
+                                    <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Wva-Tk-ngp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DwO-NV-g8X" firstAttribute="centerY" secondItem="Wva-Tk-ngp" secondAttribute="centerY" id="M2q-mw-eAj"/>
+                            <constraint firstItem="Wva-Tk-ngp" firstAttribute="trailing" secondItem="clZ-1o-ihc" secondAttribute="trailing" constant="45" id="Ncl-lJ-Ha6"/>
+                            <constraint firstItem="DwO-NV-g8X" firstAttribute="centerX" secondItem="Wva-Tk-ngp" secondAttribute="centerX" id="Waf-oH-GN8"/>
+                            <constraint firstItem="clZ-1o-ihc" firstAttribute="centerY" secondItem="DwO-NV-g8X" secondAttribute="centerY" id="Wjh-ys-c3j"/>
+                            <constraint firstItem="Tha-wZ-sln" firstAttribute="centerY" secondItem="DwO-NV-g8X" secondAttribute="centerY" id="mbK-ti-JKs"/>
+                            <constraint firstItem="Tha-wZ-sln" firstAttribute="leading" secondItem="Wva-Tk-ngp" secondAttribute="leading" constant="45" id="sE5-fV-xiG"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Stopwatch" image="stopwatch.fill" catalog="system" id="gqc-0O-AI5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bjb-VL-ysl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1263.3587786259541" y="-361.26760563380282"/>
+        </scene>
+        <!--Timer-->
+        <scene sceneID="q7a-Nh-awL">
+            <objects>
+                <viewController id="uRq-ZJ-twL" customClass="TimerViewController" customModule="IphoneAlarm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hGz-ws-JDg">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sBV-K3-8WL">
+                                <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Timer" id="2uO-YA-jq4"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fpG-Bz-c5I">
+                                <rect key="frame" x="260" y="377" width="88" height="74"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="EBH-9T-gk0"/>
+                                    <constraint firstAttribute="width" constant="88" id="tmT-Sm-y6d"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Start" cornerStyle="capsule">
+                                    <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
+                                    <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPX-aZ-DRV">
+                                <rect key="frame" x="45" y="377" width="88" height="74"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="88" id="e0g-Vs-zTz"/>
+                                    <constraint firstAttribute="height" constant="74" id="irK-oe-txZ"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Cancel" cornerStyle="capsule">
+                                    <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
+                                    <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Vwm-3i-4ds"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fpG-Bz-c5I" firstAttribute="centerY" secondItem="Vwm-3i-4ds" secondAttribute="centerY" id="JiG-Rq-D5R"/>
+                            <constraint firstItem="Vwm-3i-4ds" firstAttribute="trailing" secondItem="fpG-Bz-c5I" secondAttribute="trailing" constant="45" id="Vfo-NJ-dMa"/>
+                            <constraint firstItem="hPX-aZ-DRV" firstAttribute="centerY" secondItem="Vwm-3i-4ds" secondAttribute="centerY" id="aMo-tt-THA"/>
+                            <constraint firstItem="hPX-aZ-DRV" firstAttribute="leading" secondItem="Vwm-3i-4ds" secondAttribute="leading" constant="45" id="neU-qE-3Ns"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Timer" image="timer" catalog="system" id="fdM-DQ-R4L"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4SY-DJ-XGv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2118.320610687023" y="-361.26760563380282"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="xXx-fH-3Q4">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="ZhF-HP-jYn" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oX0-zr-4I2">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.99607843139999996" green="0.62745098040000002" blue="0.039215686270000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="NqV-yo-9YX" kind="relationship" relationship="viewControllers" id="qVJ-5d-xO9"/>
+                        <segue destination="lK3-NJ-u3l" kind="relationship" relationship="viewControllers" id="ipq-6x-Jlh"/>
+                        <segue destination="LUM-0m-kLu" kind="relationship" relationship="viewControllers" id="Ggc-kQ-Toj"/>
+                        <segue destination="uRq-ZJ-twL" kind="relationship" relationship="viewControllers" id="sm2-Kb-ogu"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cq5-46-Ymj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="833" y="-1099"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="alarm.fill" catalog="system" width="123" height="128"/>
+        <image name="globe" catalog="system" width="128" height="123"/>
+        <image name="stopwatch.fill" catalog="system" width="121" height="128"/>
+        <image name="timer" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

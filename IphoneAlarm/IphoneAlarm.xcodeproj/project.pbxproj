@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46828CDD2A2B4BAA0023F151 /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46828CDC2A2B4BAA0023F151 /* StopwatchViewController.swift */; };
 		46FB5DEE2A271FC700460186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FB5DED2A271FC700460186 /* AppDelegate.swift */; };
 		46FB5DF02A271FC700460186 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FB5DEF2A271FC700460186 /* SceneDelegate.swift */; };
 		46FB5DF52A271FC700460186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FB5DF32A271FC700460186 /* Main.storyboard */; };
@@ -15,10 +16,10 @@
 		46FB5E022A271FF200460186 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FB5E012A271FF200460186 /* AlarmViewController.swift */; };
 		46FB5E042A271FFE00460186 /* WorldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FB5E032A271FFE00460186 /* WorldClockViewController.swift */; };
 		46FB5E082A27201100460186 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FB5E072A27201100460186 /* TimerViewController.swift */; };
-		46FB5E0A2A27221400460186 /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FB5E092A27221400460186 /* StopwatchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46828CDC2A2B4BAA0023F151 /* StopwatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
 		46FB5DEA2A271FC700460186 /* IphoneAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IphoneAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46FB5DED2A271FC700460186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46FB5DEF2A271FC700460186 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		46FB5E012A271FF200460186 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
 		46FB5E032A271FFE00460186 /* WorldClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockViewController.swift; sourceTree = "<group>"; };
 		46FB5E072A27201100460186 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
-		46FB5E092A27221400460186 /* StopwatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +65,9 @@
 				46FB5DED2A271FC700460186 /* AppDelegate.swift */,
 				46FB5DEF2A271FC700460186 /* SceneDelegate.swift */,
 				46FB5DF32A271FC700460186 /* Main.storyboard */,
+				46828CDC2A2B4BAA0023F151 /* StopwatchViewController.swift */,
 				46FB5E032A271FFE00460186 /* WorldClockViewController.swift */,
 				46FB5E012A271FF200460186 /* AlarmViewController.swift */,
-				46FB5E092A27221400460186 /* StopwatchViewController.swift */,
 				46FB5E072A27201100460186 /* TimerViewController.swift */,
 				46FB5DF62A271FC800460186 /* Assets.xcassets */,
 				46FB5DF82A271FC800460186 /* LaunchScreen.storyboard */,
@@ -147,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46FB5E0A2A27221400460186 /* StopwatchViewController.swift in Sources */,
+				46828CDD2A2B4BAA0023F151 /* StopwatchViewController.swift in Sources */,
 				46FB5E042A271FFE00460186 /* WorldClockViewController.swift in Sources */,
 				46FB5DEE2A271FC700460186 /* AppDelegate.swift in Sources */,
 				46FB5DF02A271FC700460186 /* SceneDelegate.swift in Sources */,

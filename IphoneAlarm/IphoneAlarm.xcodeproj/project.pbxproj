@@ -43,6 +43,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		469578F02A2C9D2D00F1A5A8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				46FB5E032A271FFE00460186 /* WorldClockViewController.swift */,
+				46FB5E012A271FF200460186 /* AlarmViewController.swift */,
+				46828CDC2A2B4BAA0023F151 /* StopwatchViewController.swift */,
+				46FB5E072A27201100460186 /* TimerViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		46FB5DE12A271FC700460186 = {
 			isa = PBXGroup;
 			children = (
@@ -65,10 +76,7 @@
 				46FB5DED2A271FC700460186 /* AppDelegate.swift */,
 				46FB5DEF2A271FC700460186 /* SceneDelegate.swift */,
 				46FB5DF32A271FC700460186 /* Main.storyboard */,
-				46828CDC2A2B4BAA0023F151 /* StopwatchViewController.swift */,
-				46FB5E032A271FFE00460186 /* WorldClockViewController.swift */,
-				46FB5E012A271FF200460186 /* AlarmViewController.swift */,
-				46FB5E072A27201100460186 /* TimerViewController.swift */,
+				469578F02A2C9D2D00F1A5A8 /* ViewController */,
 				46FB5DF62A271FC800460186 /* Assets.xcassets */,
 				46FB5DF82A271FC800460186 /* LaunchScreen.storyboard */,
 				46FB5DFB2A271FC800460186 /* Info.plist */,

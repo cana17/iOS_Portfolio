@@ -35,8 +35,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSH-t3-VLe">
-                                <rect key="frame" x="40" y="339" width="122" height="50"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resistor_icon_512 upsidedown" translatesAutoresizingMaskIntoConstraints="NO" id="HaM-sn-6nv">
+                                <rect key="frame" x="106.66666666666669" y="109" width="180" height="180"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="9f8-mJ-a0Y"/>
+                                    <constraint firstAttribute="width" constant="180" id="fCW-vd-5Mg"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSH-t3-VLe">
+                                <rect key="frame" x="30" y="339" width="122" height="50"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="3-band">
@@ -47,7 +55,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JGG-58-1CS">
-                                <rect key="frame" x="231" y="339" width="122" height="50"/>
+                                <rect key="frame" x="212" y="339" width="141" height="50"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="4-band">
@@ -57,8 +65,8 @@
                                     <segue destination="Xug-jw-V8t" kind="show" id="x2V-Vp-VUg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xW3-6P-2aY">
-                                <rect key="frame" x="40" y="489" width="121" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xW3-6P-2aY">
+                                <rect key="frame" x="30" y="489" width="121" height="50"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="5-band">
@@ -68,16 +76,8 @@
                                     <segue destination="9Il-LH-Mi6" kind="show" id="heT-bn-vve"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resistor_icon_512 upsidedown" translatesAutoresizingMaskIntoConstraints="NO" id="HaM-sn-6nv">
-                                <rect key="frame" x="106.66666666666669" y="109" width="180" height="180"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="180" id="9f8-mJ-a0Y"/>
-                                    <constraint firstAttribute="width" constant="180" id="fCW-vd-5Mg"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C5u-EY-ujR">
-                                <rect key="frame" x="231" y="489" width="122" height="50"/>
+                                <rect key="frame" x="211" y="489" width="142" height="50"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="6-band">
@@ -102,14 +102,14 @@
                             <constraint firstItem="HaM-sn-6nv" firstAttribute="centerX" secondItem="T6W-ye-iYO" secondAttribute="centerX" id="BuE-rt-p4S"/>
                             <constraint firstItem="T6W-ye-iYO" firstAttribute="trailing" secondItem="JGG-58-1CS" secondAttribute="trailing" constant="40" id="MkD-0I-nhE"/>
                             <constraint firstItem="RSH-t3-VLe" firstAttribute="centerY" secondItem="JGG-58-1CS" secondAttribute="centerY" id="Udv-d6-DWg"/>
-                            <constraint firstItem="C5u-EY-ujR" firstAttribute="leading" secondItem="xW3-6P-2aY" secondAttribute="trailing" constant="70" id="W8p-gP-S73"/>
-                            <constraint firstItem="JGG-58-1CS" firstAttribute="leading" secondItem="RSH-t3-VLe" secondAttribute="trailing" constant="69" id="bYE-84-wl2"/>
+                            <constraint firstItem="C5u-EY-ujR" firstAttribute="leading" secondItem="xW3-6P-2aY" secondAttribute="trailing" constant="60" id="W8p-gP-S73"/>
+                            <constraint firstItem="JGG-58-1CS" firstAttribute="leading" secondItem="RSH-t3-VLe" secondAttribute="trailing" constant="60" id="bYE-84-wl2"/>
                             <constraint firstItem="C5u-EY-ujR" firstAttribute="centerY" secondItem="xW3-6P-2aY" secondAttribute="centerY" id="d8e-vg-bSL"/>
                             <constraint firstItem="HaM-sn-6nv" firstAttribute="top" secondItem="T6W-ye-iYO" secondAttribute="top" constant="50" id="fgN-Ca-gOs"/>
                             <constraint firstItem="RSH-t3-VLe" firstAttribute="top" secondItem="HaM-sn-6nv" secondAttribute="bottom" constant="50" id="hpa-lE-Wbc"/>
                             <constraint firstItem="C5u-EY-ujR" firstAttribute="trailing" secondItem="JGG-58-1CS" secondAttribute="trailing" id="htw-s7-nhF"/>
                             <constraint firstItem="xW3-6P-2aY" firstAttribute="leading" secondItem="RSH-t3-VLe" secondAttribute="leading" id="ixc-um-fYr"/>
-                            <constraint firstItem="RSH-t3-VLe" firstAttribute="leading" secondItem="T6W-ye-iYO" secondAttribute="leading" constant="40" id="mj9-a8-PFx"/>
+                            <constraint firstItem="RSH-t3-VLe" firstAttribute="leading" secondItem="T6W-ye-iYO" secondAttribute="leading" constant="30" id="mj9-a8-PFx"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Resistor" image="resistor_icon_128" id="QsK-SR-G8T"/>

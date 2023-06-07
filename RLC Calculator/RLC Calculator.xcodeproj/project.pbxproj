@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		469942262A2F577E004B208C /* Band3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469942252A2F577E004B208C /* Band3ViewController.swift */; };
-		469942282A2F5799004B208C /* Band4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469942272A2F5799004B208C /* Band4ViewController.swift */; };
-		4699422A2A2F579D004B208C /* Band5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469942292A2F579D004B208C /* Band5ViewController.swift */; };
-		4699422C2A2F57A5004B208C /* Band6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4699422B2A2F57A5004B208C /* Band6ViewController.swift */; };
 		46D07F702A2F49F3002B73A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D07F6F2A2F49F3002B73A0 /* AppDelegate.swift */; };
 		46D07F722A2F49F3002B73A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D07F712A2F49F3002B73A0 /* SceneDelegate.swift */; };
 		46D07F772A2F49F3002B73A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D07F752A2F49F3002B73A0 /* Main.storyboard */; };
@@ -19,10 +15,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		469942252A2F577E004B208C /* Band3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Band3ViewController.swift; sourceTree = "<group>"; };
-		469942272A2F5799004B208C /* Band4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Band4ViewController.swift; sourceTree = "<group>"; };
-		469942292A2F579D004B208C /* Band5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Band5ViewController.swift; sourceTree = "<group>"; };
-		4699422B2A2F57A5004B208C /* Band6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Band6ViewController.swift; sourceTree = "<group>"; };
 		46D07F6C2A2F49F3002B73A0 /* RLC Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RLC Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D07F6F2A2F49F3002B73A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46D07F712A2F49F3002B73A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,10 +57,6 @@
 				46D07F6F2A2F49F3002B73A0 /* AppDelegate.swift */,
 				46D07F712A2F49F3002B73A0 /* SceneDelegate.swift */,
 				46D07F752A2F49F3002B73A0 /* Main.storyboard */,
-				469942252A2F577E004B208C /* Band3ViewController.swift */,
-				469942272A2F5799004B208C /* Band4ViewController.swift */,
-				469942292A2F579D004B208C /* Band5ViewController.swift */,
-				4699422B2A2F57A5004B208C /* Band6ViewController.swift */,
 				46D07F782A2F49F4002B73A0 /* Assets.xcassets */,
 				46D07F7A2A2F49F4002B73A0 /* LaunchScreen.storyboard */,
 				46D07F7D2A2F49F4002B73A0 /* Info.plist */,
@@ -147,11 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4699422A2A2F579D004B208C /* Band5ViewController.swift in Sources */,
-				469942282A2F5799004B208C /* Band4ViewController.swift in Sources */,
-				469942262A2F577E004B208C /* Band3ViewController.swift in Sources */,
 				46D07F702A2F49F3002B73A0 /* AppDelegate.swift in Sources */,
-				4699422C2A2F57A5004B208C /* Band6ViewController.swift in Sources */,
 				46D07F722A2F49F3002B73A0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

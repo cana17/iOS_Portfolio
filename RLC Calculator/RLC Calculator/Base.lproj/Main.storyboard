@@ -64,7 +64,7 @@
         <!--저항기 계산기-->
         <scene sceneID="YrH-hh-vKw">
             <objects>
-                <viewController id="5T4-vs-v4I" sceneMemberID="viewController">
+                <viewController id="5T4-vs-v4I" customClass="ResistorViewController" customModule="RLC_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t45-jV-85m">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -527,7 +527,7 @@
         <!--커패시터 계산기-->
         <scene sceneID="gN1-P7-Ex3">
             <objects>
-                <viewController id="Piv-Qa-AhL" sceneMemberID="viewController">
+                <viewController id="Piv-Qa-AhL" customClass="CapacitorViewController" customModule="RLC_Calculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="weB-bE-oWv">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

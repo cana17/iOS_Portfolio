@@ -12,7 +12,7 @@
 		46A163852AAC88DD000CADC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A163832AAC88DD000CADC4 /* Main.storyboard */; };
 		46A163872AAC88DD000CADC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A163862AAC88DD000CADC4 /* Assets.xcassets */; };
 		46A1638A2AAC88DD000CADC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A163882AAC88DD000CADC4 /* LaunchScreen.storyboard */; };
-		46A163962AAC89FF000CADC4 /* TalkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A163952AAC89FF000CADC4 /* TalkCollectionViewCell.swift */; };
+		46A163962AAC89FF000CADC4 /* TalkListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A163952AAC89FF000CADC4 /* TalkListCollectionViewCell.swift */; };
 		46A163982AAC8A31000CADC4 /* TalkListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A163972AAC8A31000CADC4 /* TalkListViewController.swift */; };
 		46A1639A2AAC8A47000CADC4 /* Talk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A163992AAC8A47000CADC4 /* Talk.swift */; };
 		46A1639C2AAC8ABB000CADC4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1639B2AAC8ABB000CADC4 /* ProfileViewController.swift */; };
@@ -26,7 +26,7 @@
 		46A163862AAC88DD000CADC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46A163892AAC88DD000CADC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46A1638B2AAC88DD000CADC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46A163952AAC89FF000CADC4 /* TalkCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkCollectionViewCell.swift; sourceTree = "<group>"; };
+		46A163952AAC89FF000CADC4 /* TalkListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkListCollectionViewCell.swift; sourceTree = "<group>"; };
 		46A163972AAC8A31000CADC4 /* TalkListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkListViewController.swift; sourceTree = "<group>"; };
 		46A163992AAC8A47000CADC4 /* Talk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Talk.swift; sourceTree = "<group>"; };
 		46A1639B2AAC8ABB000CADC4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 			children = (
 				46A163992AAC8A47000CADC4 /* Talk.swift */,
 				46A163972AAC8A31000CADC4 /* TalkListViewController.swift */,
-				46A163952AAC89FF000CADC4 /* TalkCollectionViewCell.swift */,
+				46A163952AAC89FF000CADC4 /* TalkListCollectionViewCell.swift */,
 			);
 			path = KakaoTalk;
 			sourceTree = "<group>";
@@ -188,7 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46A163982AAC8A31000CADC4 /* TalkListViewController.swift in Sources */,
-				46A163962AAC89FF000CADC4 /* TalkCollectionViewCell.swift in Sources */,
+				46A163962AAC89FF000CADC4 /* TalkListCollectionViewCell.swift in Sources */,
 				46A1639C2AAC8ABB000CADC4 /* ProfileViewController.swift in Sources */,
 				46A1637E2AAC88DD000CADC4 /* AppDelegate.swift in Sources */,
 				46A1639A2AAC8A47000CADC4 /* Talk.swift in Sources */,

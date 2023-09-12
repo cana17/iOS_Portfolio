@@ -22,8 +22,8 @@ class TalkListViewController: UIViewController {
         talkList = talkList.sorted(by: { talk1, talk2 in
             return talk1.date > talk2.date
         })
-        
     }
+    
 }
 
 extension TalkListViewController: UICollectionViewDataSource {

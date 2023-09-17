@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4624AD072AB715F700CA7695 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4624AD062AB715F700CA7695 /* Profile.swift */; };
+		4624AD092AB7163000CA7695 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4624AD082AB7163000CA7695 /* ProfileCollectionViewCell.swift */; };
 		46A1637E2AAC88DD000CADC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1637D2AAC88DD000CADC4 /* AppDelegate.swift */; };
 		46A163802AAC88DD000CADC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1637F2AAC88DD000CADC4 /* SceneDelegate.swift */; };
 		46A163852AAC88DD000CADC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A163832AAC88DD000CADC4 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4624AD062AB715F700CA7695 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		4624AD082AB7163000CA7695 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
 		46A1637A2AAC88DD000CADC4 /* KaKaoTalkCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaKaoTalkCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A1637D2AAC88DD000CADC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46A1637F2AAC88DD000CADC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,7 +94,9 @@
 		46A1639E2AAC8AD9000CADC4 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				4624AD062AB715F700CA7695 /* Profile.swift */,
 				46A1639B2AAC8ABB000CADC4 /* ProfileViewController.swift */,
+				4624AD082AB7163000CA7695 /* ProfileCollectionViewCell.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -189,7 +195,9 @@
 			files = (
 				46A163982AAC8A31000CADC4 /* TalkListViewController.swift in Sources */,
 				46A163962AAC89FF000CADC4 /* TalkListCollectionViewCell.swift in Sources */,
+				4624AD092AB7163000CA7695 /* ProfileCollectionViewCell.swift in Sources */,
 				46A1639C2AAC8ABB000CADC4 /* ProfileViewController.swift in Sources */,
+				4624AD072AB715F700CA7695 /* Profile.swift in Sources */,
 				46A1637E2AAC88DD000CADC4 /* AppDelegate.swift in Sources */,
 				46A1639A2AAC8A47000CADC4 /* Talk.swift in Sources */,
 				46A163802AAC88DD000CADC4 /* SceneDelegate.swift in Sources */,

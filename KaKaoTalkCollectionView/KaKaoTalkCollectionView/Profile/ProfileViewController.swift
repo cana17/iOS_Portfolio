@@ -7,7 +7,7 @@
 
 import UIKit
 
-class KakaoTalkProfileViewController: UIViewController {
+class ProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
